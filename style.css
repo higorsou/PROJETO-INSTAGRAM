@@ -1,0 +1,110 @@
+*{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    background-color: rgb(243, 238, 238);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.celular {
+    display: flex;
+    padding-top: 5%;
+    align-items: center;
+    justify-content: start;
+    padding-right: 2%;
+}
+.instagram-celular img {
+    width: 100%;
+}
+.direita {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-style: solid;
+    border-color: antiquewhite;
+    padding: 3% 3% 3% 3%;
+
+
+}
+.instagram-logo img {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+}
+.instagram-logo {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 3%;
+}
+.perfil-photo img {
+    width: 40%;
+    border-radius: 50%;
+}
+.perfil-photo {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 7%;
+
+}
+.link1 {
+     text-decoration: none;
+     width: 100%;
+     color: wheat;
+     background-color: rgb(18, 147, 228);
+     padding: 1%;
+     border-radius: 3%;
+     margin-bottom:10%;
+    font-size: 100%;
+}
+.link2 {
+    text-decoration: none;
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    font-size: 100%;
+    
+}
+.trocarconta {
+    margin-bottom: 5%;
+    background-color: rgb(255, 255, 255);
+    font-size: 100%;
+
+}
+
+/* midia queries */
+@media (max-width: 1024px) {
+    .mediajust {
+        width: 100%;
+    }
+}
+  @media (max-width: 650px) {
+    .mediajust { 
+        width: 100%;
+    }
+    .celular {
+        display: none;
+    }
+    .direita {
+        width: 200%;
+        padding-top: 5%;
+        margin-top: 20%;
+    }
+  }
+
+   
+
+
+
+    
+
+
+
+
+
+
+  
+
